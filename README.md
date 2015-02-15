@@ -61,4 +61,67 @@ Ordered list 3
 3.  Bird
 2.  McHale
 1.  Parish
-2.  
+
+*single asterisks*
+
+_single underscores_
+
+**double asterisks**
+
+__double underscores__
+
+This is [an example](http://example.com/ "Title") inline link.
+
+[This link](http://example.net/) has no title attribute.
+
+<http://markable.in>
+
+<hi@markable.in>
+
+![Alt text](/path/to/img.jpg "Optional title")
+
+![Google Logo](http://www.google.com.hk/intl/zh-CN/images/logo_cn.png)
+
+![Alt text][id]
+[id]: url/to/image  "Optional title attribute"
+
+![Google Logo][googlelogo]
+[googlelogo]: http://www.google.com.hk/intl/zh-CN/images/logo_cn.png 
+
+* * *
+***
+*****
+- - -
+---------------------------------------
+
+
+Footnotes[^1] have a label[^label] and a definition[^!DEF].
+
+[^1]: This is a footnote
+[^label]: A footnote on "label"
+[^!DEF]: The definition of a footnote.
+
+
+ Left align | Right align | Center align 
+:-----------|------------:|:------------:
+ This       |        This |     This     
+ column     |      column |    column    
+ will       |        will |     will     
+ be         |          be |      be      
+ left       |       right |    center    
+ aligned    |     aligned |   aligned 
+
+* Outer pipes on tables are optional
+* Colon used for alignment (right versus left)
+* 
+
+`print` is a python method
+
+```
+This is a code block.
+No need to indent manually.
+```
+
+This is a footnote ↩
+A footnote on "label" ↩
+The definition of a footnote. ↩
