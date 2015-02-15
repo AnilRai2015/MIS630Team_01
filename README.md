@@ -1,7 +1,7 @@
 =============
 #                                          CAR EMERGENCY AND REPAIR SERVICES 
 =============
-Hello Viewers,  [This link brief introduction to github ](http://en.wikipedia.org/wiki/GitHub "Wikipedia page") has no title attribute.
+Hello Viewers,  [ brief introduction to github ](http://en.wikipedia.org/wiki/GitHub "Wikipedia page") has no title attribute.
 This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technology") inline link.
 This is a [link](htpps://google.com)
 *Anil Kumar Rai
@@ -9,8 +9,8 @@ This is a [link](htpps://google.com)
     *ravikant  :tennis:
     :tada: :fireworks:
     /play crickets
-    /play trombone 
-    /play tmyk
+    /play trombone   
+    /play tmyk  
 
 This is an H1
 =============
@@ -77,7 +77,7 @@ _single underscores_
 
 __double underscores__
 
-This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technology") inline link.
+Plateform which inspierd me to this idea and contribution [School of Opportunities](http://www.stevens.edu/sit/ "Stevens Institute of Technology") inline link.
 
 [This link](http://example.net/) has no title attribute.
 
@@ -85,7 +85,7 @@ This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technolog
 
 <hsafadi@stevens.edu>
 
-![Alt text](http://pngimg.com/upload/bmw_PNG1712.png "Optional title")
+![Alt text](https://github.com/AnilRai2015/MIS630Team_01/edit/master/33594.png "Optional title")
 
 ![Google Logo](http://pngimg.com/upload/bmw_PNG1707.png)
 ![Alt text][id]
