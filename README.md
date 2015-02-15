@@ -78,19 +78,15 @@ This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technolog
 
 <hsafadi@stevens.edu>
 
-![Google Logo][googlelogo]
-[googlelogo]: C:\Users\Anil\Downloads\Raindropmemory-Fungiiiiiii-Folder-White-document-2.ico
+![Alt text](http://pngimg.com/upload/bmw_PNG1712.png "Optional title")
 
-
-![Alt text](http://findicons.com/icon/77992/shield_and_swords?id=392121 "Optional title")
-
-![Google Logo](http://pngimg.com/upload/tree_PNG3489.png)
+![Google Logo](http://pngimg.com/upload/bmw_PNG1707.png)
 
 ![Alt text][id]
-[id]: url/to/image  "Optional title attribute"
+[id]: http://pngimg.com/upload/clock_PNG6665.png  "Optional title attribute"
 
 ![Google Logo][googlelogo]
-[googlelogo]: http://www.google.com.hk/intl/zh-CN/images/logo_cn.png 
+[googlelogo]: http://pngimg.com/upload/money_PNG3544.png
 
 * * *
 ***
