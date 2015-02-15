@@ -78,7 +78,10 @@ This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technolog
 
 <hsafadi@stevens.edu>
 
-C:\Users\Anil\Downloads\Raindropmemory-Fungiiiiiii-Folder-White-document-2.ico
+![Google Logo][googlelogo]
+[googlelogo]: C:\Users\Anil\Downloads\Raindropmemory-Fungiiiiiii-Folder-White-document-2.ico
+
+
 ![Alt text](http://findicons.com/icon/77992/shield_and_swords?id=392121 "Optional title")
 
 ![Google Logo](http://www.iconarchive.com/show/i-icons-by-treetog.html)
