@@ -70,17 +70,17 @@ _single underscores_
 
 __double underscores__
 
-This is [an example](http://example.com/ "Title") inline link.
+This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technology") inline link.
 
 [This link](http://example.net/) has no title attribute.
 
 <http://markable.in>
 
-<hi@markable.in>
+<hsafadi@stevens.edu>
 
-![Alt text](/path/to/img.jpg "Optional title")
+![Alt text](http://findicons.com/icon/77992/shield_and_swords?id=392121 "Optional title")
 
-![Google Logo](http://www.google.com.hk/intl/zh-CN/images/logo_cn.png)
+![Google Logo](http://findicons.com/icon/66126/vlc)
 
 ![Alt text][id]
 [id]: url/to/image  "Optional title attribute"
