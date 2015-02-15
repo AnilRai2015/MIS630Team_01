@@ -85,7 +85,7 @@ Plateform which inspierd me to this idea and contribution [School of Opportuniti
 
 <hsafadi@stevens.edu>
 
-![Alt text](https://github.com/AnilRai2015/MIS630Team_01/edit/master/33594.png  "Optional title")
+![Alt text](https://github.com/AnilRai2015/MIS630Team_01/blob/master/33594.png "Optional title")
 
 ![Google Logo](http://pngimg.com/upload/bmw_PNG1707.png)
 ![Alt text][id]
