@@ -1,7 +1,8 @@
 =============
  PROJECT WORK
 =============
-[This link](htpps://google.com) has no title attribute.
+hi  [This link](htpps://google.com "google") has no title attribute.
+This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technology") inline link.
 This is a [link](htpps://google.com)
 *Anil Kumar Rai
     *Vaibahv
