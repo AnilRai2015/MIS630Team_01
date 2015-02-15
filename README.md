@@ -6,6 +6,7 @@ This is a [link](htpps://google.com)
     *Vaibahv
     *ravikant  :tennis:
     :tada: :fireworks:
+    /play crickets
 
 This is an H1
 =============
