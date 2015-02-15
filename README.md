@@ -80,7 +80,7 @@ This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technolog
 
 ![Alt text](http://findicons.com/icon/77992/shield_and_swords?id=392121 "Optional title")
 
-![Google Logo](http://findicons.com/icon/66126/vlc)
+![Google Logo](http://www.iconarchive.com/show/i-icons-by-treetog.html)
 
 ![Alt text][id]
 [id]: url/to/image  "Optional title attribute"
