@@ -88,7 +88,7 @@ This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technolog
 
 ![Google Logo][googlelogo]
 [googlelogo]: http://pngimg.com/upload/money_PNG3544.png
-#### <i class="C:\Users\Anil\Downloads\Raindropmemory-Fungiiiiiii-Folder-White-document-2.ico"></i> Create a document
+#### <i class="C:\Users\Anil\Downloads"></i> Create a document
 
 
 * * *
