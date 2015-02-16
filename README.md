@@ -42,4 +42,18 @@ on clickig on this icon user will be directed to a page where he can call for a 
 this functionality will rate mechanics on previous services provided to clients.
 
 5)Feedback
-this functionality will 
+In this functionality users can tate the services the website offered.
+
+6)mechanic registeration
+this functionalty will be for mechanics . the mechanics can register and then after some verification they will be added in the mechanics service and mechanic rating page so they can provide service and increase thier frequency of customers.
+
+7)blacklist customer
+in this functionality the website will not provide service to a list of customers who clicked on  mechanic service but didnt avail it or were not present after calling them. the customers can be removed from blacklist if they want to by calling the customer representative.
+
+8)contact us
+this would be normal details of the admin and owner of the website .
+
+9)customer representative
+this will be for customers who directly want to talk with customer representative.
+
+
