@@ -1,18 +1,8 @@
 =============
-#                                          CAR EMERGENCY AND REPAIR SERVICES 
+                               #   Car mechanic at your service #
 =============
-Hello Viewers,  [ brief introduction to github ](http://en.wikipedia.org/wiki/GitHub "Wikipedia page") has no title attribute.
-This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technology") inline link.
-This is a [link](htpps://google.com)
-*Anil Kumar Rai
-    *Vaibahv
-    *ravikant  :tennis:
-    :tada: :fireworks:
-    /play crickets
-    /play trombone   
-    /play tmyk  
 
-This is an H1
+
 =============
 
 This is an H2
