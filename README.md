@@ -26,10 +26,20 @@ The main purpose of this website is to maintain  update and provide information 
 by limiting the customers to go to a mechanic personally in case of a car brekadown
 
 ###Functionality
-1)Login page
+1)Login
  The functionality of this page is as same as any other login functionality .It will have the functionality to create new user , sign-in functionality for existing user and forgot password functionality.
  after clicking on new user the customer will be directed to a new page . over there he will have to enter his details like first name , last name , adress, email id and mobile number and preffered password and user name.
 the functionality of sign in page is that existing customer will enter his username and password . after that he will be directed to home page of the website.
 
-2)
+2)Offer 
+after clicking on offer icon user will be redirected to a new page where he will see the list of offers.
+example :- with purcahse of break-pad he will have one bottle of engine oil free.
 
+3)Mechanic service 
+on clickig on this icon user will be directed to a page where he can call for a mechanic in case of emergency breakdown or servicing. For this he will have to enter the city which he is in along with the pincode. he then will have to write down his location . after Clickin on " Call for service " button the nearest registered mechanic  will come with an estimated time for the mechanic to arrive..
+
+4)Mechanic rating
+this functionality will rate mechanics on previous services provided to clients.
+
+5)Feedback
+this functionality will 
