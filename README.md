@@ -18,4 +18,9 @@ The main purpose of this website is to maintain  update and provide information 
   3)The customer can even give feedback about the service he got
   4)the customer can view the user ratings of the mechanic.
   5)If he is facing more serious problems with the mechanic or service provided he can contact the customer representative directly through phone.
-  6)If any mechanic is not availaible then he will mail to admin stating that he wont be available for next few days so that he wont be shown availble and the customer would get another mechanic for his service
+  6)If any mechanic is not availaible then he will mail to admin stating that he wont be available for next few days so that he wont be shown availble and the customer would get another mechanic for his service. Subsequently he will be shown a new time estimation 
+  7)If any customer who does not avail the service or was not available on the location then he will be blacklisted from the site.
+  ##Goals
+  the goal of the organization is to maximize the base of customer database using the service and to provide good services 
+by limiting the customers to go to a mechanic personally in case of a car brekadown
+
