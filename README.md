@@ -9,3 +9,4 @@ The main purpose of this website is to maintain  update and provide information 
 4)wait for your mechanic to arrive at your location. 
 
 ##Project Scope
+ The idea for the project is to build a database for new users, registered users , offers for customer , mechanic information , area , city , car services and nearest mechanic available according to the location provided.  
