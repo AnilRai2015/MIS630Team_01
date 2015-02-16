@@ -26,6 +26,10 @@ The main purpose of this website is to maintain  update and provide information 
 by limiting the customers to go to a mechanic personally in case of a car brekadown
 
 ###Functionality
-1)Login in page
+1)Login page
+ The functionality of this page is as same as any other login functionality .It will have the functionality to create new user , sign-in functionality for existing user and forgot password functionality.
+ after clicking on new user the customer will be directed to a new page . over there he will have to enter his details like first name , last name , adress, email id and mobile number and preffered password and user name.
+the functionality of sign in page is that existing customer will enter his username and password . after that he will be directed to home page of the website.
 
+2)
 
