@@ -1,5 +1,6 @@
 =============
-# Car mechanic at your service                               
+# Car mechanic at your service       
+
 =============
 ##Mission statement
 The main purpose of this website is to maintain  update and provide information / service to customers through the database system for the customers facing problems with thier car in 4 easy steps. 
@@ -23,4 +24,5 @@ The main purpose of this website is to maintain  update and provide information 
 ##Goals
   the goal of the organization is to maximize the base of customer database using the service and to provide good services 
 by limiting the customers to go to a mechanic personally in case of a car brekadown
+
 
