@@ -77,7 +77,7 @@ This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technolog
 <http://markable.in>
 
 <hsafadi@stevens.edu>
-
+![Alt text][id]
 [id]: http://pngimg.com/upload/bmw_PNG1707.png  "Optional title attribute"
 ![Alt text][id]
 [id]: http://pngimg.com/upload/clock_PNG6665.png  "Optional title attribute"
