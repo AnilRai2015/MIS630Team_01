@@ -10,3 +10,5 @@
 ##Functionality Diagram
 1.https://cloud.githubusercontent.com/assets/10890492/6221233/9b51f748-b60e-11e4-9243-e7439deb7ada.jpg
 2.https://cloud.githubusercontent.com/assets/10890492/6221246/d31cb0d2-b60e-11e4-8618-6d815d5797d6.jpg
+###Log in functionality Flowchart
+https://cloud.githubusercontent.com/assets/10890492/6221420/8b2c9de8-b611-11e4-841d-40f4b63a87d1.jpg
