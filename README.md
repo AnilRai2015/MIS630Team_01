@@ -3,11 +3,8 @@
     --------------------------
 # CAR Breakdown or Repair Service Provider
 
-:copyright:  :bangbang:
-----
 :tada: :fireworks:
 # Mission statement
-:tada: :fireworks:
 =============
 The main purpose of this website is to maintain and provide information / service to customers through the database system for the customers facing problems with thier car in 4 easy steps.
 1. Register
