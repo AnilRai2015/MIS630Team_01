@@ -124,14 +124,3 @@ This is a code block.
 No need to indent manually.
 ```
 
-This is a footnote ↩
-A footnote on "label" ↩
-The definition of a footnote. ↩
-
-
-*Ordered list 3*
-
-3.  Bird
-2.  McHale
-1.  Parish
-
