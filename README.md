@@ -8,8 +8,7 @@
 3)write what issues u r facing with your car
 4)wait for your mechanic to arrive at your location. 
 
-![mockup pages][googlelogo]
-[googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/mockup_1.png
+![mockup pages][googlelogo]https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/mockup_1.png
 ![mockup pages][googlelogo]https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_2.png
 
 ![mockup pages][googlelogo]https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_3.png
