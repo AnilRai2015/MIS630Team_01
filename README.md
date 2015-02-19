@@ -62,7 +62,10 @@ this will be for customers who directly want to talk with customer representativ
 [googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/Vibhav/images%20(2).jpg
 
 ![mockup pages][googlelogo]
-[googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/Vibhav/images%20(2).jpg
+[googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/Vibhav/images%20(3).jpg
+
 ![mockup pages][googlelogo]
 [googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/Vibhav/images.jpg
+
+
 
