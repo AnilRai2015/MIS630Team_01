@@ -1,14 +1,11 @@
 =============
-    :copyright: :X: :bangbang: 
+:copyright: :X: :bangbang: 
     --------------------------
-            CAR Breakdown or Repair Service Provider
+# CAR Breakdown or Repair Service Provider
     --------------------------
-    :copyright: :X: :bangbang:
-
+:copyright: :X: :bangbang:
 :tada: :fireworks:
----------------------------------
 Mission statement
----------------------------------
 :tada: :fireworks:
 =============
 The main purpose of this website is to maintain and provide information / service to customers through the database system for the customers facing problems with thier car in 4 easy steps.
@@ -25,11 +22,11 @@ The main purpose of this website is to maintain and provide information / servic
 4. Second hand CARS sale
 5. Customer care service
 6. Time and money saving opportunities
+
 --------------
 Project Scope
 -------------
-##Description
-==============
+###Description
 > The idea for the project is to build a database for:
 >> + New users
 >> + Registered users
@@ -61,6 +58,7 @@ Project Scope
 
 NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upload to this services will be the future scope of the project.
 
+---------------------------------------------------------
 ## Relationship Over View with DATA BASE (Look and feel)
 
 ![Block Diagram][Github_Cloud]
