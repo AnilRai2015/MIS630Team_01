@@ -55,17 +55,14 @@ this would be normal details of the admin and owner of the website .
 
 9)customer representative
 this will be for customers who directly want to talk with customer representative.
+
 ![mockup pages][googlelogo]
-[googlelogo]:
-https://github.com/AnilRai2015/MIS630Team_01/blob/Vibhav/images%20(1).jpg
+[googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/Vibhav/images%20(1).jpg
 ![mockup pages][googlelogo]
 [googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/Vibhav/images%20(2).jpg
 
 ![mockup pages][googlelogo]
-[googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/Vibhav/images%20(3).jpg
-
+[googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/Vibhav/images%20(2).jpg
 ![mockup pages][googlelogo]
 [googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/Vibhav/images.jpg
-
-
 
