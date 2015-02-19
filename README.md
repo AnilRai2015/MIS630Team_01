@@ -62,7 +62,7 @@ NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upl
 ![Block Diagram][Github_Cloud]
 [Github_Cloud]: https://cloud.githubusercontent.com/assets/10890508/6262597/d111fd34-b7d4-11e4-8dbb-70cf188d94cd.png  "Relationship Over View"
 
-##### Future Scope: :lock: "key: :lock: :key:
+##### Future Scope: :lock: :key: :lock: :key:
 
 *   Agencies registration and handling to their products and advertisment will be handled by Agencies itself.
 *   Any Existing User can upload his car for sale by him/her self.
@@ -104,6 +104,7 @@ __Major Benefits of this website to USER are:__
 8) Contact us this would be normal details of the admin and owner of the website .
 
 9) Customer representative this will be for customers who directly want to talk with customer representative.
+
 Developer Informations:
 
  Anil Rai | Vibhav | LIE | Ravikant |
