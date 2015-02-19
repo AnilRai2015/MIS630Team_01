@@ -2,8 +2,8 @@
 :copyright:  :bangbang: 
     --------------------------
 # CAR Breakdown or Repair Service Provider
-    --------------------------
-:copyright:  :bangbang:  :X:
+
+:copyright:  :bangbang:
 ----
 :tada: :fireworks:
 # Mission statement
