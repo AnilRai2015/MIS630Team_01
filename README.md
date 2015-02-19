@@ -7,6 +7,4 @@
 2)share your location 
 3)write what issues u r facing with your car
 4)wait for your mechanic to arrive at your location. 
-![Time Information][googlelogo2]
-[googlelogo2]: http://pngimg.com/upload/clock_PNG6665.png  "googlelogo2 title attribute"
 
