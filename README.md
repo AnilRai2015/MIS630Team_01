@@ -5,7 +5,7 @@
 
 :tada: :fireworks:
 # Mission statement
-=============
+-------------------
 The main purpose of this website is to maintain and provide information / service to customers through the database system for the customers facing problems with thier car in 4 easy steps.
 1. Register
 2. Share your location 
