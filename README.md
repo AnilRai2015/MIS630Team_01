@@ -1,6 +1,5 @@
 =============
 :copyright:  :bangbang: 
-    --------------------------
 # CAR Breakdown or Repair Service Provider
 
 :tada: :fireworks:
