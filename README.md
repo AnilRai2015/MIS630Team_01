@@ -11,11 +11,14 @@
 
 ![mockup pages][googlelogo]
 [googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/mockup_1.png
-![mockup pages][googlelogo]https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_2.png
+![mockup pages][googlelogo]
+[googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_2.png
 
-![mockup pages][googlelogo]https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_3.png
+![mockup pages][googlelogo]
+[googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_3.png
 
-![mockup pages][googlelogo]https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_4.png
+![mockup pages][googlelogo]
+[googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_4.png
 
 
 
