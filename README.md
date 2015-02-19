@@ -9,16 +9,13 @@
 4)wait for your mechanic to arrive at your location. 
 
 ![mockup pages][googlelogo]
-[googlelogo]:
-https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/mockup_1.png
-https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_2.png
+[googlelogo]:https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/mockup_1.png
+![mockup pages][googlelogo]https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_2.png
 
-https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_3.png
+![mockup pages][googlelogo]https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_3.png
 
-https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_4.png
+![mockup pages][googlelogo]https://github.com/AnilRai2015/MIS630Team_01/blob/suuuperray/Mockup_4.png
 
 
-![mockup pages][googlelogo2]
-[googlelogo2]: "googlelogo2 title attribute"
 
 
