@@ -83,6 +83,9 @@ This is [an example](http://www.stevens.edu/sit/ "Stevens Institute of Technolog
 ![Alt text][id]
 [id]: http://pngimg.com/upload/clock_PNG6665.png  "Optional title attribute"
 
+![Alt text][id2]
+[id2]: https://cloud.githubusercontent.com/assets/10890508/6262597/d111fd34-b7d4-11e4-8dbb-70cf188d94cd.png  "Optional title attribute"
+
 ![Google Logo][googlelogo]
 [googlelogo]: http://pngimg.com/upload/money_PNG3544.png
 
