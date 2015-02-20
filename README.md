@@ -24,9 +24,7 @@ Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/62212
 
 Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221246/d31cb0d2-b60e-11e4-8618-6d815d5797d6.jpg "Stevens Institute of Technology") inline link.
 
-============================
 #Project Scope
--------------
 ###Description
 > The idea for the project is to build a database for:
 >> + New users
