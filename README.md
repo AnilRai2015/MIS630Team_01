@@ -4,7 +4,7 @@
 :tada: :fireworks:
 # Mission statement
 -------------------
-The purpose of this website is to maintain and provide information / service to customers by fetching data from the  database system for the customers facing problems with thier car in 4 easy steps.
+The purpose of this website is to maintain and provide information / service to customers by fetching data from the  database system for the customers facing problems with their car in 4 easy steps.
 
 1. Register
 2. Share your location 
@@ -121,7 +121,7 @@ NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upl
 *   SMS verification/confirmation/alert.
 *   Tracking of request status.
 
-__Major Benefits of this website to USER are:__ 
+__Major Benefits of this website are:__ 
 + Compare and SAVE money among all available options
 + Save your time online:clock10:
 + Check the offers.
@@ -131,7 +131,7 @@ __Major Benefits of this website to USER are:__
 -------------------------------------------------------------------------------------------------------
 ####Developer Informations:
 
- Anil Rai | Vibhav | LIE | Ravikant |
+ Anil Rai | Vaibhav | LIE | Ravikant |
 :-----------|------------:|:------------:|:------------:|
 anilrai_2006@yahoo.com       |      Vaibhavsheth1989@gmail.com |     lie.Xi@gmail.com    | ravi@yahoo.com |
  001-3163918463     |    001-6463183341 |    001-00000999999    |  001-0099887766 |
