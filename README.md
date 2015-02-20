@@ -1,9 +1,8 @@
 :copyright:  :bangbang: 
 # CAR Breakdown or Repair Service Provider
-
+*****
 :tada: :fireworks:
 # Mission statement
--------------------
 The purpose of this website is to maintain and provide information / service to customers by fetching data from the  database system for the customers facing problems with thier car in 4 easy steps.
 
 1. Register
@@ -23,7 +22,7 @@ Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/62212
 6. Time and money saving comparision
 
 Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221246/d31cb0d2-b60e-11e4-8618-6d815d5797d6.jpg "Stevens Institute of Technology") inline link.
-
+*****
 #Project Scope
 ###Description
 > The idea for the project is to build a database for:
@@ -57,7 +56,7 @@ NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upl
 ## Relationship Over View with DATA BASE (Look and feel)
 ![Block Diagram][Github_Cloud]
 [Github_Cloud]: https://cloud.githubusercontent.com/assets/10890508/6262597/d111fd34-b7d4-11e4-8dbb-70cf188d94cd.png  "Relationship Over View"
-
+*****
 # Functionality
 --------------------------------------------
 1) Login :-The functionality of this page is as same as any other login functionality .It will have the functionality to create new user , sign-in functionality for existing user and forgot password functionality. after clicking on new user the customer will be directed to a new page . over there he will have to enter his details like first name , last name , adress, email id and mobile number and preffered password and user name. the functionality of sign in page is that existing customer will enter his username and password . after that he will be directed to home page of the website.
@@ -81,7 +80,7 @@ NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upl
 10) Second hand car :- There will be a list of second hand cars available for sale , the customer can choose from those cars to buy.
 
 11) Car agency :- There will be a list of car agency registered with us along with their information
-
+*****
 # Flowcharts :-
 
 Supporting [Login functionality Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221420/8b2c9de8-b611-11e4-841d-40f4b63a87d1.jpg "Stevens Institute of Technology") inline link.
@@ -89,7 +88,7 @@ Supporting [Login functionality Flowchart](https://cloud.githubusercontent.com/a
 Supporting [Mechanic Service flowchart](https://cloud.githubusercontent.com/assets/10890492/6221553/204152f6-b613-11e4-8a0f-6639c5cd8f01.jpg "Stevens Institute of Technology") inline link.
 -----------------------------------------------------------------------------
 Supporting [Mechanic Registration Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221611/d3fd705e-b613-11e4-86ee-b73d0abd9e68.jpg "Stevens Institute of Technology") inline link.
-
+*****
 # Mockup Pages (Look and feel)
 ### 1- Call for Service/Mechanics
 ![Mockup Page01][Github Cloud]
@@ -97,7 +96,7 @@ Supporting [Mechanic Registration Flowchart](https://cloud.githubusercontent.com
 ### 2- Web-site Feedback Page
 ![Mockup Page02][Github Cloud02]
 [Github Cloud02]: https://cloud.githubusercontent.com/assets/10890508/6282381/178e182e-b8a2-11e4-8713-b6cc9a7bb016.png   "Optional title attribute"
-
+*****
 ## Future Scope: :lock: :key: :lock: :key:
 
 *   Agencies registration and handling of their products and advertisment will be handled by admin with broader aspects.
@@ -109,7 +108,7 @@ Supporting [Mechanic Registration Flowchart](https://cloud.githubusercontent.com
 *   Uploading Users pictures
 *   SMS verification/confirmation/alert.
 *   Tracking of request status.
-
+*****
 __Major Benefits of this website to USER are:__ 
 + Compare and SAVE money among all available options
 + Save your time online:clock10:
@@ -118,7 +117,7 @@ __Major Benefits of this website to USER are:__
 ![Time AND Money Information][googlelogo2]
 [googlelogo2]:https://cloud.githubusercontent.com/assets/10890508/6283082/36385f40-b8ad-11e4-94f5-1000ae218c89.png "googlelogo2 title attribute"
 ===================================
-
+*****
 ####Developer Informations:
 
  Anil Rai | Vibhav | LIE | Ravikant |
@@ -126,7 +125,7 @@ __Major Benefits of this website to USER are:__
 anilrai_2006@yahoo.com       |      Vaibhavsheth1989@gmail.com |     lie.Xi@gmail.com    | ravi@yahoo.com |
  001-3163918463     |    001-6463183341 |    001-00000999999    |  001-0099887766 |
  MIS      |        MIS |     MIS     |  MIS  |
-===================================
+*****
 ###### CONTRIBUTORS
 This is [CONTRIBUTORS](https://github.com/AnilRai2015/MIS630Team_01/graphs/contributors "Stevens Institute of Technology") inline link.
  
