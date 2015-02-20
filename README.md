@@ -96,11 +96,11 @@ Supporting [Mechanic Service flowchart](https://cloud.githubusercontent.com/asse
 -----------------------------------------------------------------------------
 Supporting [Mechanic Registration Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221611/d3fd705e-b613-11e4-86ee-b73d0abd9e68.jpg "Stevens Institute of Technology") inline link.
 -----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
 ## Mockup Pages (Look and feel)
 ### 1- Call for Service/Mechanics
 ![Mockup Page01][Github Cloud]
 [Github Cloud]: https://cloud.githubusercontent.com/assets/10890508/6282356/9e56e10c-b8a1-11e4-83cf-2e4fb26ec5f4.png   "Optional title attribute"
-
 ### 2- Web-site Feedback Page
 ![Mockup Page02][Github Cloud02]
 [Github Cloud02]: https://cloud.githubusercontent.com/assets/10890508/6282381/178e182e-b8a2-11e4-8713-b6cc9a7bb016.png   "Optional title attribute"
