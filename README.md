@@ -108,7 +108,7 @@ __Major Benefits of this website to USER are:__
 ![Money Information][GithubCloud]
 [GithubCloud]: https://cloud.githubusercontent.com/assets/10890508/6282724/5bbcaf74-b8a7-11e4-82ee-56d7ca062848.png
 ![Time Information][googlelogo2]
-[googlelogo2]: https://cloud.githubusercontent.com/assets/10890508/6282899/4433fec2-b8aa-11e4-932e-5257da5120bd.png "googlelogo2 title attribute"
+[googlelogo2]: https://cloud.githubusercontent.com/assets/10890508/6282917/94943648-b8aa-11e4-9867-0c4495815445.png "googlelogo2 title attribute"
 -------------------------------------------------------------------------------------------------------
 ####Developer Informations:
 
