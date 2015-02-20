@@ -58,9 +58,6 @@ NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upl
 
 ---------------------------------------------------------
 ## Relationship Over View with DATA BASE (Look and feel)
-![Care Picture][Github Cloud]
-[Github Cloud]: https://cloud.githubusercontent.com/assets/10890508/6282468/bd044386-b8a3-11e4-95da-67490d5ef2c8.png  "Optional title attribute"
-
 ![Block Diagram][Github_Cloud]
 [Github_Cloud]: https://cloud.githubusercontent.com/assets/10890508/6262597/d111fd34-b7d4-11e4-8dbb-70cf188d94cd.png  "Relationship Over View"
 --------------------------------------------
@@ -83,10 +80,14 @@ NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upl
 8) Contact us this would be normal details of the admin and owner of the website .
 
 9) Customer representative this will be for customers who directly want to talk with customer representative.
+
 ---------------------------------------------------------
 ## Mockup Pages (Look and feel)
+### 1- Call for Service/Mechanics
 ![Mockup Page01][Github Cloud]
 [Github Cloud]: https://cloud.githubusercontent.com/assets/10890508/6282356/9e56e10c-b8a1-11e4-83cf-2e4fb26ec5f4.png   "Optional title attribute"
+
+### 1- Web-site Feedback Page
 ![Mockup Page02][Github Cloud02]
 [Github Cloud02]: https://cloud.githubusercontent.com/assets/10890508/6282381/178e182e-b8a2-11e4-8713-b6cc9a7bb016.png   "Optional title attribute"
 
@@ -104,8 +105,8 @@ __Major Benefits of this website to USER are:__
 + Compare and SAVE money among all available options
 + Save your time :clock10:
 
-![Money Information][googlelogo]
-[googlelogo]: http://pngimg.com/upload/money_PNG3544.png
+![Money Information][GithubCloud]
+[GithubCloud]: https://cloud.githubusercontent.com/assets/10890508/6282654/79a5ba4a-b8a6-11e4-809f-89517c07f03c.png
 
 ![Time Information][googlelogo2]
 [googlelogo2]: http://pngimg.com/upload/clock_PNG6665.png  "googlelogo2 title attribute"
