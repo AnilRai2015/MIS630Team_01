@@ -106,10 +106,10 @@ __Major Benefits of this website to USER are:__
 + Save your time :clock10:
 
 ![Money Information][GithubCloud]
-[GithubCloud]: https://cloud.githubusercontent.com/assets/10890508/6282654/79a5ba4a-b8a6-11e4-809f-89517c07f03c.png
+[GithubCloud]: https://cloud.githubusercontent.com/assets/10890508/6282724/5bbcaf74-b8a7-11e4-82ee-56d7ca062848.png
 
 ![Time Information][googlelogo2]
-[googlelogo2]: http://pngimg.com/upload/clock_PNG6665.png  "googlelogo2 title attribute"
+[googlelogo2]: https://cloud.githubusercontent.com/assets/10890508/6282784/24fa54e0-b8a8-11e4-8d6f-318ff5a15d23.png  "googlelogo2 title attribute"
 -------------------------------------------------------------------------------------------------------
 ####Developer Informations:
 
