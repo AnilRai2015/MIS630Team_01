@@ -133,9 +133,9 @@ __Major Benefits of this website to USER are:__
 
  Anil Rai | Vibhav | LIE | Ravikant |
 :-----------|------------:|:------------:|:------------:|
-anilrai_2006@yahoo.com       |      Vaibhavsheth1989@gmail.com |     lie.Xi@gmail.com    | ravi@yahoo.com |
- 001-3163918463     |    001-6463183341 |    001-00000999999    |  001-0099887766 |
- MIS      |        MIS |     MIS     |  MIS  |
+anilrai_2006@yahoo.com | Vaibhavsheth1989@gmail.com | ie.Xi@gmail.com | ravi@yahoo.com  |
+ 001-3163918463  |    001-6463183341  |    001-00000999999    |  001-0099887766 |
+ MIS     |    MIS   |    MIS    |   MIS   |
  
 ###### CONTRIBUTORS
 This is [CONTRIBUTORS](https://github.com/AnilRai2015/MIS630Team_01/graphs/contributors "Stevens Institute of Technology") inline link.
