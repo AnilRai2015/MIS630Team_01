@@ -23,6 +23,7 @@ Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/62212
 6. Time and money saving comparision
 
 Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221246/d31cb0d2-b60e-11e4-8618-6d815d5797d6.jpg "Stevens Institute of Technology") inline link.
+
 --------------
 Project Scope
 -------------
@@ -89,9 +90,10 @@ NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upl
 ---------------------------------------------------------
 ### Flowcharts :-
 
-###Login functionality Flowchart:-
 Supporting [Login functionality Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221420/8b2c9de8-b611-11e4-841d-40f4b63a87d1.jpg "Stevens Institute of Technology") inline link.
+-----------------------------------------------------------------------------
 Supporting [Mechanic Service flowchart](https://cloud.githubusercontent.com/assets/10890492/6221553/204152f6-b613-11e4-8a0f-6639c5cd8f01.jpg "Stevens Institute of Technology") inline link.
+-----------------------------------------------------------------------------
 Supporting [Mechanic Registration Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221611/d3fd705e-b613-11e4-86ee-b73d0abd9e68.jpg "Stevens Institute of Technology") inline link.
 
 ## Mockup Pages (Look and feel)
