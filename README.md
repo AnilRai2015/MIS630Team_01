@@ -95,7 +95,7 @@ Supporting [Login functionality Flowchart](https://cloud.githubusercontent.com/a
 Supporting [Mechanic Service flowchart](https://cloud.githubusercontent.com/assets/10890492/6221553/204152f6-b613-11e4-8a0f-6639c5cd8f01.jpg "Stevens Institute of Technology") inline link.
 -----------------------------------------------------------------------------
 Supporting [Mechanic Registration Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221611/d3fd705e-b613-11e4-86ee-b73d0abd9e68.jpg "Stevens Institute of Technology") inline link.
-
+-----------------------------------------------------------------------------
 ## Mockup Pages (Look and feel)
 ### 1- Call for Service/Mechanics
 ![Mockup Page01][Github Cloud]
