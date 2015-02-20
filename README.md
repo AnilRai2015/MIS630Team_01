@@ -91,7 +91,8 @@ NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upl
 ### Flowcharts :-
 
 ###Log in functionality Flowchart:-
-![login][login]:https://cloud.githubusercontent.com/assets/10890492/6221420/8b2c9de8-b611-11e4-841d-40f4b63a87d1.jpg
+![Flowchart][login]
+[login]:https://cloud.githubusercontent.com/assets/10890492/6221420/8b2c9de8-b611-11e4-841d-40f4b63a87d1.jpg
 ###Mechanic Service flowchart:-
 https://cloud.githubusercontent.com/assets/10890492/6221553/204152f6-b613-11e4-8a0f-6639c5cd8f01.jpg
 ###Mechanic Registration Flowchart:-
