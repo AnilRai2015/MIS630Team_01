@@ -52,13 +52,12 @@ Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/62212
 9. User can see the second hand car for sale.
 
 NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upload to this services will be the future scope of the project.
-
+*****
 ## Relationship Over View with DATA BASE (Look and feel)
 ![Block Diagram][Github_Cloud]
 [Github_Cloud]: https://cloud.githubusercontent.com/assets/10890508/6262597/d111fd34-b7d4-11e4-8dbb-70cf188d94cd.png  "Relationship Over View"
 *****
 # Functionality
---------------------------------------------
 1) Login :-The functionality of this page is as same as any other login functionality .It will have the functionality to create new user , sign-in functionality for existing user and forgot password functionality. after clicking on new user the customer will be directed to a new page . over there he will have to enter his details like first name , last name , adress, email id and mobile number and preffered password and user name. the functionality of sign in page is that existing customer will enter his username and password . after that he will be directed to home page of the website.
 
 2) Offer:- after clicking on offer icon user will be redirected to a new page where he will see the list of offers. example :- with purcahse of break-pad he will have one bottle of engine oil free.
@@ -88,6 +87,7 @@ Supporting [Login functionality Flowchart](https://cloud.githubusercontent.com/a
 Supporting [Mechanic Service flowchart](https://cloud.githubusercontent.com/assets/10890492/6221553/204152f6-b613-11e4-8a0f-6639c5cd8f01.jpg "Stevens Institute of Technology") inline link.
 -----------------------------------------------------------------------------
 Supporting [Mechanic Registration Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221611/d3fd705e-b613-11e4-86ee-b73d0abd9e68.jpg "Stevens Institute of Technology") inline link.
+-----------------------------------------------------------------------------
 *****
 # Mockup Pages (Look and feel)
 ### 1- Call for Service/Mechanics
