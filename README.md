@@ -25,7 +25,7 @@ Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/62212
 Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221246/d31cb0d2-b60e-11e4-8618-6d815d5797d6.jpg "Stevens Institute of Technology") inline link.
 
 ============================
-Project Scope
+#Project Scope
 -------------
 ###Description
 > The idea for the project is to build a database for:
@@ -38,7 +38,6 @@ Project Scope
 >> + Customer care service
 >> + Car Agency registered with us
 >> + Secondhand cars offers
-* * *
 ![Care Picture][Github Cloud01]
 [Github Cloud01]: https://cloud.githubusercontent.com/assets/10890508/6282468/bd044386-b8a3-11e4-95da-67490d5ef2c8.png "Optional title attribute"
 *****
@@ -57,11 +56,9 @@ Project Scope
 
 NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upload to this services will be the future scope of the project.
 
-===========================================
 ## Relationship Over View with DATA BASE (Look and feel)
 ![Block Diagram][Github_Cloud]
 [Github_Cloud]: https://cloud.githubusercontent.com/assets/10890508/6262597/d111fd34-b7d4-11e4-8dbb-70cf188d94cd.png  "Relationship Over View"
-===========================================
 
 # Functionality
 --------------------------------------------
@@ -87,7 +84,6 @@ NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upl
 
 11) Car agency :- There will be a list of car agency registered with us along with their information
 
-========================
 # Flowcharts :-
 
 Supporting [Login functionality Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221420/8b2c9de8-b611-11e4-841d-40f4b63a87d1.jpg "Stevens Institute of Technology") inline link.
@@ -96,7 +92,6 @@ Supporting [Mechanic Service flowchart](https://cloud.githubusercontent.com/asse
 -----------------------------------------------------------------------------
 Supporting [Mechanic Registration Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221611/d3fd705e-b613-11e4-86ee-b73d0abd9e68.jpg "Stevens Institute of Technology") inline link.
 
-==================================
 # Mockup Pages (Look and feel)
 ### 1- Call for Service/Mechanics
 ![Mockup Page01][Github Cloud]
@@ -104,7 +99,6 @@ Supporting [Mechanic Registration Flowchart](https://cloud.githubusercontent.com
 ### 2- Web-site Feedback Page
 ![Mockup Page02][Github Cloud02]
 [Github Cloud02]: https://cloud.githubusercontent.com/assets/10890508/6282381/178e182e-b8a2-11e4-8713-b6cc9a7bb016.png   "Optional title attribute"
-===================================
 
 ## Future Scope: :lock: :key: :lock: :key:
 
@@ -118,7 +112,6 @@ Supporting [Mechanic Registration Flowchart](https://cloud.githubusercontent.com
 *   SMS verification/confirmation/alert.
 *   Tracking of request status.
 
-===================================
 __Major Benefits of this website to USER are:__ 
 + Compare and SAVE money among all available options
 + Save your time online:clock10:
