@@ -1,5 +1,5 @@
 :copyright:  :bangbang: 
-# CAR Breakdown or Repair Service Provider
+# CAR Breakdown / Repair Service Provider
 *****
 :tada: :fireworks:
 # Mission statement
@@ -10,7 +10,7 @@ The purpose of this website is to maintain and provide information / service to 
 3. Write what issues you are facing with your car
 4. Wait for your mechanic to arrive at your location with acknowledgement to your mail/Mobile number
 
-Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221233/9b51f748-b60e-11e4-9243-e7439deb7ada.jpg "Stevens Institute of Technology") inline link.
+Supporting [Block Diagram](https://cloud.githubusercontent.com/assets/10890492/6221233/9b51f748-b60e-11e4-9243-e7439deb7ada.jpg "Stevens Institute of Technology") inline link.
 
 :thumbsup:
 ## Additional Service Provided are:
@@ -21,7 +21,7 @@ Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/62212
 5. Customer care service
 6. Time and money saving comparision
 
-Supporting [Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221246/d31cb0d2-b60e-11e4-8618-6d815d5797d6.jpg "Stevens Institute of Technology") inline link.
+Supporting [Block Diagram](https://cloud.githubusercontent.com/assets/10890492/6221246/d31cb0d2-b60e-11e4-8618-6d815d5797d6.jpg "Stevens Institute of Technology") inline link.
 *****
 #Project Scope
 ###Description
@@ -120,10 +120,10 @@ __Major Benefits of this website to USER are:__
 *****
 ####Developer Informations:
 
- Anil Rai | Vibhav | LIE | Ravikant |
+ Anil Rai | Vaibhav | Lei | Ravikant |
 :-----------|------------:|:------------:|:------------:|
-anilrai_2006@yahoo.com       |      Vaibhavsheth1989@gmail.com |     lie.Xi@gmail.com    | ravi@yahoo.com |
- 001-3163918463     |    001-6463183341 |    001-00000999999    |  001-0099887766 |
+anilrai_2006@yahoo.com       |      Vaibhavsheth1989@gmail.com |     ray.taihu@gmail.com    | pravikant_052@gmail.com |
+ 001-3163918463     |    001-6463183341 |    001-2014233852    |  001-7323977566 |
  MIS      |        MIS |     MIS     |  MIS  |
 *****
 ###### CONTRIBUTORS
