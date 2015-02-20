@@ -105,9 +105,7 @@ __Major Benefits of this website to USER are:__
 + Compare and SAVE money among all available options
 + Save your time :clock10:
 
-![Money Information][GithubCloud]
-[GithubCloud]: https://cloud.githubusercontent.com/assets/10890508/6282724/5bbcaf74-b8a7-11e4-82ee-56d7ca062848.png
-![Time Information][googlelogo2]
+![Time AND Money Information][googlelogo2]
 [googlelogo2]:https://cloud.githubusercontent.com/assets/10890508/6283082/36385f40-b8ad-11e4-94f5-1000ae218c89.png "googlelogo2 title attribute"
 -------------------------------------------------------------------------------------------------------
 ####Developer Informations:
