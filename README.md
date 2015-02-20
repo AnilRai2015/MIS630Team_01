@@ -88,16 +88,15 @@ NOTE: Agencies and second hand car information will be feeded by ADMIN. Auto upl
 11)Car agency :- There will be a list of car agency registered with us along with their information
 
 ---------------------------------------------------------
-### Flowcharts :-
+## Flowcharts :-
 
 Supporting [Login functionality Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221420/8b2c9de8-b611-11e4-841d-40f4b63a87d1.jpg "Stevens Institute of Technology") inline link.
 -----------------------------------------------------------------------------
 Supporting [Mechanic Service flowchart](https://cloud.githubusercontent.com/assets/10890492/6221553/204152f6-b613-11e4-8a0f-6639c5cd8f01.jpg "Stevens Institute of Technology") inline link.
 -----------------------------------------------------------------------------
 Supporting [Mechanic Registration Flowchart](https://cloud.githubusercontent.com/assets/10890492/6221611/d3fd705e-b613-11e4-86ee-b73d0abd9e68.jpg "Stevens Institute of Technology") inline link.
------------------------------------------------------------------------------
------------------------------------------------------------------------------
-## Mockup Pages (Look and feel)
+==================================
+# Mockup Pages (Look and feel)
 ### 1- Call for Service/Mechanics
 ![Mockup Page01][Github Cloud]
 [Github Cloud]: https://cloud.githubusercontent.com/assets/10890508/6282356/9e56e10c-b8a1-11e4-83cf-2e4fb26ec5f4.png   "Optional title attribute"
