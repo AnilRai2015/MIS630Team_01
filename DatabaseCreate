@@ -1,0 +1,126 @@
+DROP DATABASE IF EXISTS Carservice;
+CREATE DATABASE Carservice COLLATE latin1_general_cs;
+USE Carservice;
+
+# Users
+# ------------------------------------------------------------
+
+CREATE TABLE `Users` (
+  `UserID` int(10) NOT NULL,
+  `FirstName` varchar(20) Not null,
+  `LastName` varchar(20) NOT NULL,
+  `Mobile`   int(9) Not Null,
+  `Email`    varchar(50),
+  `Gender`   varchar(6) Not Null,
+  `Password` varchar(16) Not Null,
+  PRIMARY KEY  (`UserID`)
+) ENGINE=InnoDB;
+INSERT INTO `carservice`.`users` (`UserID`, `FirstName`, `LastName`, `Mobile`, `Email`, `Gender`, `Password`) VALUES ('10000', 'Shobha', 'Sheffer', '304592922', 'sho_sheffer@carmag.com', 'Female', '123456sdf');
+INSERT INTO `carservice`.`users` (`UserID`, `FirstName`, `LastName`, `Mobile`, `Email`, `Gender`, `Password`) VALUES ('10001', 'Garron', 'Garza', '973183493', 'ga_gar@booksmart.com', 'Male', '221443df');
+INSERT INTO `carservice`.`users` (`UserID`, `FirstName`, `LastName`, `Mobile`, `Email`, `Gender`, `Password`) VALUES ('10002', 'Harper ', 'Pinheiro', '299143583', 'harper.pinh@freewebmail.com', 'Male', 'zas39103');
+INSERT INTO `carservice`.`users` (`UserID`, `FirstName`, `LastName`, `Mobile`, `Email`, `Gender`, `Password`) VALUES ('10003', 'Bodor', 'Fogleman', '892244248', 'bodo.fogleman@carmag.com', 'Male', 'bf18290890');
+INSERT INTO `carservice`.`users` (`UserID`, `FirstName`, `LastName`, `Mobile`, `Email`, `Gender`, `Password`) VALUES ('10004', 'Durward', 'Shultz', '678890123', 'durwashul@info.com', 'Female', 'sdf213hhj213');
+INSERT INTO `carservice`.`users` (`UserID`, `FirstName`, `LastName`, `Mobile`, `Email`, `Gender`, `Password`) VALUES ('10005', 'Lakshmi', 'Galvan', '123999333', 'lakshmi_galva@freewebmail.com', 'Male', 'sdj212312');
+
+# Garages
+# ------------------------------------------------------------
+
+CREATE TABLE `Garages` (
+  `GarageID` int(10) NOT NULL,
+  `GarageName` varchar(20) Not null,
+  `Mobile`   int(9) Not Null,
+  `Email`    varchar(50) Not Null,
+  `street` varchar(255) NOT NULL,
+  `city` varchar(255) NOT NULL,
+  `region` varchar(255) NOT NULL,
+  `Password` varchar(16) Not Null,
+  `Notification` varchar(200),
+  `Opentime` time Not Null,
+  `Closetime` time Not Null,
+  `Openweekdays` varchar(30) Not Null,
+  PRIMARY KEY  (`GarageID`)
+) ENGINE=InnoDB;
+INSERT INTO `carservice`.`garages` (`GarageID`, `GarageName`, `Mobile`, `Email`, `street`, `city`, `region`, `Password`, `Opentime`, `Closetime`, `Openweekdays`) VALUES ('001', 'A', '123893543', 'service@AA.com', '3579 Easy Deer Highway', 'Worms', 'Michigan', 'aaa', '08:00:00', '23:00:00', 'Mon-Sun');
+INSERT INTO `carservice`.`garages` (`GarageID`, `GarageName`, `Mobile`, `Email`, `street`, `city`, `region`, `Password`, `Opentime`, `Closetime`, `Openweekdays`) VALUES ('002', 'B', '089604891', 'service@BB.com', '9941 Merry Grounds', 'Madrid', 'Hawaii', 'bbb', '08:00:00', '23:00:00', 'Mon-Sun');
+INSERT INTO `carservice`.`garages` (`GarageID`, `GarageName`, `Mobile`, `Email`, `street`, `city`, `region`, `Password`, `Opentime`, `Closetime`, `Openweekdays`) VALUES ('003', 'C', '523503494', 'service@CC.com', '7365 Red Run', 'Transfer', 'Kentucky', 'ccc', '08:00:00', '23:00:00', 'Mon-Sun');
+INSERT INTO `carservice`.`garages` (`GarageID`, `GarageName`, `Mobile`, `Email`, `street`, `city`, `region`, `Password`, `Opentime`, `Closetime`, `Openweekdays`) VALUES ('004', 'D', '347322730', 'service@DD.com', '5804 Quaking Cloud Heights', 'Edenwold', 'Michigan', 'ddd', '08:00:00', '23:00:00', 'Mon-Sun');
+INSERT INTO `carservice`.`garages` (`GarageID`, `GarageName`, `Mobile`, `Email`, `street`, `city`, `region`, `Password`, `Opentime`, `Closetime`, `Openweekdays`) VALUES ('005', 'E', '882385399', 'service@EE.com', '168 Harvest Wagon Via', 'Millennium', 'Hawaii', 'eee', '08:00:00', '23:00:00', 'Mon-Sun');
+
+
+# Mechanics
+# ------------------------------------------------------------
+
+CREATE TABLE `Mechanics` (
+  `MechanicNo` int(10) NOT NULL,
+  `FirstName` varchar(20) Not null,
+  `LastName` varchar(20) NOT NULL,
+  `Mobile`   int(9) Not Null,
+  `Email`    varchar(50),
+  `GarageID` int(10) NOT NULL,
+  PRIMARY KEY  (`MechanicNo`),
+  Foreign KEY (`GarageID`) references Garages (`GarageID`)
+) ENGINE=InnoDB;
+INSERT INTO `carservice`.`mechanics` (`MechanicNo`, `FirstName`, `LastName`, `Mobile`, `GarageID`) VALUES ('01', 'M1', 'M1', '123456789', '1');
+INSERT INTO `carservice`.`mechanics` (`MechanicNo`, `FirstName`, `LastName`, `Mobile`, `GarageID`) VALUES ('02', 'M2', 'M2', '123456789', '1');
+INSERT INTO `carservice`.`mechanics` (`MechanicNo`, `FirstName`, `LastName`, `Mobile`, `GarageID`) VALUES ('03', 'M3', 'M3', '123456789', '1');
+INSERT INTO `carservice`.`mechanics` (`MechanicNo`, `FirstName`, `LastName`, `Mobile`, `GarageID`) VALUES ('04', 'M4', 'M4', '123456789', '2');
+INSERT INTO `carservice`.`mechanics` (`MechanicNo`, `FirstName`, `LastName`, `Mobile`, `GarageID`) VALUES ('05', 'M5', 'M5', '123456789', '3');
+INSERT INTO `carservice`.`mechanics` (`MechanicNo`, `FirstName`, `LastName`, `Mobile`, `GarageID`) VALUES ('06', 'M6', 'M6', '123456789', '4');
+INSERT INTO `carservice`.`mechanics` (`MechanicNo`, `FirstName`, `LastName`, `Mobile`, `GarageID`) VALUES ('07', 'M7', 'M7', '123456789', '4');
+
+# CoveringArea
+# ------------------------------------------------------------
+
+CREATE TABLE `CoveringArea` (
+  `GarageID` int(10) NOT NULL,
+  `Area` varchar(20) Not null,
+  `Time`   time,
+  `Distance`    varchar(20),
+  PRIMARY KEY  (`GarageID`,`Area`),
+  Foreign KEY (`GarageID`) references Garages (`GarageID`)
+) ENGINE=InnoDB;
+INSERT INTO `carservice`.`coveringarea` (`GarageID`, `Area`, `Time`, `Distance`) VALUES ('1', 'A1', '20:00:00', '10');
+INSERT INTO `carservice`.`coveringarea` (`GarageID`, `Area`, `Time`, `Distance`) VALUES ('1', 'A2', '20:00:00', '10');
+INSERT INTO `carservice`.`coveringarea` (`GarageID`, `Area`, `Time`, `Distance`) VALUES ('1', 'A3', '20:00:00', '10');
+INSERT INTO `carservice`.`coveringarea` (`GarageID`, `Area`, `Time`, `Distance`) VALUES ('2', 'A3', '20:00:00', '10');
+INSERT INTO `carservice`.`coveringarea` (`GarageID`, `Area`, `Time`, `Distance`) VALUES ('2', 'A6', '20:00:00', '10');
+INSERT INTO `carservice`.`coveringarea` (`GarageID`, `Area`, `Time`, `Distance`) VALUES ('3', 'A5', '20:00:00', '10');
+INSERT INTO `carservice`.`coveringarea` (`GarageID`, `Area`, `Time`, `Distance`) VALUES ('4', 'A9', '20:00:00', '10');
+INSERT INTO `carservice`.`coveringarea` (`GarageID`, `Area`, `Time`, `Distance`) VALUES ('4', 'A12', '20:00:00', '10');
+INSERT INTO `carservice`.`coveringarea` (`GarageID`, `Area`, `Time`, `Distance`) VALUES ('5', 'A3', '20:00:00', '10');
+INSERT INTO `carservice`.`coveringarea` (`GarageID`, `Area`, `Time`, `Distance`) VALUES ('5', 'A5', '20:00:00', '10');
+
+# Offers
+# ------------------------------------------------------------
+
+CREATE TABLE `Offers` (
+  `OfferID` int(9) NOT NULL,
+  `Description` varchar(200) Not null,
+  `Minbill`   int,
+  `Discout`    float,
+  `Validation`   int,
+  PRIMARY KEY  (`OfferID`)
+) ENGINE=InnoDB;
+
+# MechanicService
+# ------------------------------------------------------------
+
+CREATE TABLE `MechanicService` (
+  `ServiceNo` int(15) NOT NULL,
+  `UserID` int(10) NOT NULL,
+  `GarageID` int(10) NOT NULL,
+  `Status` varchar(10) Not null,
+  `ProblemDescription`   varchar(300),
+  `Date`    date not null,
+  `RatingToGarage` int(2),
+  `RatingToService` int(2),
+  `FeedBack` varchar(500),
+  `OfferID` int(9),
+  `Price` float(8),
+  PRIMARY KEY  (`ServiceNo`),
+  Foreign KEY (`GarageID`) references Garages (`GarageID`),
+  Foreign KEY (`UserID`) references Users (`UserID`)
+) ENGINE=InnoDB;
+INSERT INTO `carservice`.`mechanicservice` (`ServiceNo`, `UserID`, `GarageID`, `Status`, `Date`) VALUES ('000011', '10001', '1', 'Processing', '2014-01-11');
+INSERT INTO `carservice`.`mechanicservice` (`ServiceNo`, `UserID`, `GarageID`, `Status`, `Date`) VALUES ('000022', '10000', '3', 'Completed', '2014-02-22');
+INSERT INTO `carservice`.`mechanicservice` (`ServiceNo`, `UserID`, `GarageID`, `Status`, `Date`) VALUES ('000028', '10001', '5', 'Cancelled', '2014-03-01');
