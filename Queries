@@ -2,3 +2,8 @@
 select GarageID,GarageName from garages,coveringarea
 where coveringarea.GarageID=garages.GarageID
 and Area=''
+
+#Show all services that one user ever made
+select FirstName,LastName,ServiceNo,Status,Date from mechanicservice,users
+where mechanicservice.UserID=users.UserID
+and users.UserID='10001'
