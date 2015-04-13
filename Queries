@@ -1,3 +1,10 @@
+#create a new user to table users
+INSERT INTO `carservice`.`users` (`UserID`, `FirstName`, `LastName`, `Mobile`, `Email`, `Gender`, `Password`) VALUES ('10000', 'Shobha', 'Sheffer', '304592922', 'sho_sheffer@carmag.com', 'Female', '123456sdf');
+
+#create a new service order
+INSERT INTO `carservice`.`mechanicservice` (`ServiceNo`, `UserID`, `GarageID`, `Status`, `Date`) VALUES ('000011', '10001', '1', 'Processing', '2014-01-11');
+
+
 #Show all garages when selecting a certain area
 select GarageID,GarageName from garages,coveringarea
 where coveringarea.GarageID=garages.GarageID
