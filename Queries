@@ -44,7 +44,7 @@ where serviceNo=''
 price=price*(1-discount) #this value will be entered to the mechanicservice table
 
 
-#garage update the status
+#garage update the status if the service is provided
 UPDATE mechanicservice
 SET status='S_granted'
 WHERE serviceNo=''
