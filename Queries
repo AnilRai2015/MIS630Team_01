@@ -33,4 +33,18 @@ where status='Completed
 select serviceNo,price,userID from mechanicservice
 where status='R_raised'
 
+#validate offerID and caculate discount
+select discount from offers
+where offerID=''
 
+#if above query is true,we will proceed further with the discount percentage to caculate the discount on the price:
+select price from mechanicservice
+where serviceNo=''
+
+price=price*(1-discount) #this value will be entered to the mechanicservice table
+
+
+#garage update the status
+UPDATE mechanicservice
+SET status='S_granted'
+WHERE serviceNo=''
