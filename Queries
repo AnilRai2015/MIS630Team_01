@@ -14,3 +14,9 @@ and Area=''
 select FirstName,LastName,ServiceNo,Status,Date from mechanicservice,users
 where mechanicservice.UserID=users.UserID
 and users.UserID='10001'
+
+#Caculate the amount that one user ever spent
+select FirstName,LastName,sum(price) from users,mechanicservice
+where users.UserID=mechanicservice.UserID
+      and FirstName='' and LastName=''
+      
