@@ -1,0 +1,50 @@
+#create a new user to table users
+INSERT INTO `carservice`.`users` (`UserID`, `FirstName`, `LastName`, `Mobile`, `Email`, `Gender`, `Password`) VALUES ('10000', 'Shobha', 'Sheffer', '304592922', 'sho_sheffer@carmag.com', 'Female', '123456sdf');
+
+#create a new service order
+INSERT INTO `carservice`.`mechanicservice` (`ServiceNo`, `UserID`, `GarageID`, `Status`, `Date`) VALUES ('000011', '10001', '1', 'Processing', '2014-01-11');
+
+
+#Show all garages when selecting a certain area
+select GarageID,GarageName from garages,coveringarea
+where coveringarea.GarageID=garages.GarageID
+and Area=''
+
+#Show all services that one user ever made
+select FirstName,LastName,ServiceNo,Status,Date from mechanicservice,users
+where mechanicservice.UserID=users.UserID
+and users.UserID='10001'
+
+#Caculate the amount that one user ever spent
+select FirstName,LastName,sum(price) from users,mechanicservice
+where users.UserID=mechanicservice.UserID
+      and FirstName='' and LastName=''
+      
+
+#show the pending bills
+select serviceNo,price,userID from mechanicservice
+where status='S_granted'
+
+#show all the paid bills
+select serviceNo,price,userID from mechanicservice
+where status='Completed
+'
+#show all the pending requests 
+select serviceNo,price,userID from mechanicservice
+where status='R_raised'
+
+#validate offerID and caculate discount
+select discount from offers
+where offerID=''
+
+#if above query is true,we will proceed further with the discount percentage to caculate the discount on the price:
+select price from mechanicservice
+where serviceNo=''
+
+price=price*(1-discount) #this value will be entered to the mechanicservice table
+
+
+#garage update the status if the service is provided
+UPDATE mechanicservice
+SET status='S_granted'
+WHERE serviceNo=''
