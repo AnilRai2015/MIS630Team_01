@@ -20,3 +20,17 @@ select FirstName,LastName,sum(price) from users,mechanicservice
 where users.UserID=mechanicservice.UserID
       and FirstName='' and LastName=''
       
+
+#show the pending bills
+select serviceNo,price,userID from mechanicservice
+where status='S_granted'
+
+#show all the paid bills
+select serviceNo,price,userID from mechanicservice
+where status='Completed
+'
+#show all the pending requests 
+select serviceNo,price,userID from mechanicservice
+where status='R_raised'
+
+
