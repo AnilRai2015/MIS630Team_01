@@ -14,23 +14,30 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-$id = $_GET["login"];
-if($login) {
-$sql = "SELECT Password FROM Users where userid=$login";
+
+$userid = $_GET["login"];
+$password = $_GET["password"];
+//echo $password;
+
+if($userid){
+$sql = "SELECT UserID,Password FROM Users where UserID=$userid";
 } 
-//else {
-//$sql = "SELECT  firstname, lastname FROM Users";
-//}
-//echo $sql;
+
 $result = mysqli_query($conn, $sql);
+$row = mysqli_fetch_row($result);
+
+//echo $row[0];
+//echo $row[1];
 
 if (mysqli_num_rows($result) > 0) 
    {
     // output data of each row
-    if (){}
-       else{}
-    }
-} else {
+    if ($row[1] == $password)
+       { header("Location: home.html");}
+      else{echo "invalid password";}
+    } 
+else 
+{
     echo "User doesn't exist";
 }
 
