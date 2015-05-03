@@ -1,0 +1,78 @@
+<html ><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Mis630 team1</title>
+</head>
+
+<body>
+<div id="container">
+		<div id="header">
+        	<h1>Car<span class="off">Service</span></h1>
+        </div>   
+        
+        <div id="menu">
+        	<ul>
+            	<li class="menuitem"><a href="user_home.html">Home</a></li>
+                <li class="menuitem"><a href="callforhelp.html">CallForHelp</a></li>
+                <li class="menuitem"><a href="offers.html">Offers</a></li>
+                <li class="menuitem"><a href="#">Services</a></li>
+              <li class="menuitem"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="leftmenu">
+
+        <div id="leftmenu_top"></div>
+             <h2>
+             <?php
+             session_start();
+             echo "Welcome:".$_SESSION["currentuser"];
+             ?>
+             </h2>
+
+				<div id="leftmenu_main">    
+             
+                        
+                <ul>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="orders.html">Orders</a></li>
+                    <li><a href="#">logout</a></li>
+                </ul>
+</div>
+                
+                
+              <div id="leftmenu_bottom"></div>
+        </div>
+        
+        
+        
+        
+		<div id="content">
+        
+        
+        <div id="content_top"></div>
+        <div id="content_main">
+
+               <form  action="selectGarage.php" target="Garages">
+               <select name="Area">
+                     <option value="A1">A1</option>
+                     <option value="A2">A2</option>
+                     <option value="A3">A3</option>
+                     <option value="A4">A4</option>
+                     <option value="A5">A5</option>
+                     <option value="A6">A6</option>
+                     <option value="A9">A9</option>
+                     <option value="A12">A12</option>
+    
+                </select>
+                <br><br>
+               <input type="submit">
+               <iframe name="Garages">
+               </iframe>
+
+              </form>
+ 
+      </div>
+   </div>
+
+</body></html>

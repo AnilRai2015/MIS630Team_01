@@ -1,0 +1,86 @@
+<?php
+session_start();
+?>
+<html ><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Mis630 team1</title>
+</head>
+
+<body>
+<div id="container">
+		<div id="header">
+        	<h1>Car<span class="off">Service</span></h1>
+        </div>   
+        
+        <div id="menu">
+        	<ul>
+            	<li class="menuitem"><a href="garage_home.html">Home</a></li>
+                <li class="menuitem"><a href="/profile">Profile</a></li>
+                <li class="menuitem"><a href="garage_order.html">Orders</a></li>
+                <li class="menuitem"><a href="#">Services</a></li>
+            </ul>
+        </div>
+        <div id="leftmenu">
+
+        <div id="leftmenu_top"></div>
+
+ 
+             <h2>
+             <?php
+             echo "Welcome:".$_SESSION["currentgarage"];
+             ?>
+             </h2>
+ 	<div id="leftmenu_main">                       
+        </div>        
+        
+        
+        
+        
+	<div id="content">
+        
+        
+        <div id="content_top"></div>
+        <div id="content_main">
+<?php
+$servername = "mysql13.000webhost.com";
+$username = "a2926278_mis630";
+$password = "mis630";
+$dbname = "a2926278_mis630";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+if(isset($_SESSION["currentgarage"]))
+{
+$garageID=(int)$_SESSION["currentgarage"];
+
+$sql = "SELECT ServiceNo,UserID,ProblemDescription,Price FROM MechanicService where Status='Waiting' and GarageID=$garageID";
+$result = mysqli_query($conn, $sql);
+
+   if (mysqli_num_rows($result) > 0) 
+   {
+    echo '<div id="content_main">';
+    echo "<table border=0>";
+    echo "<tr> <th> ServiceNo </th> <th> UserID </th><th> Problem </th><th>Price</th></tr>";
+    while($row = mysqli_fetch_assoc($result)) 
+    {        
+        echo "<tr>";
+        echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["UserID"]. "</td><td>" . $row["ProblemDescription"]."</td><td><form action='garage_pricing.php'><input type='float' name='price'><input type='submit' value='Submit'></form></td>";
+        echo "</tr>";
+     }
+   echo "</table>";
+   echo "</div>";
+    }
+} 
+mysqli_close($conn);
+?>  
+      </div>
+   </div>
+
+
+</body></html>
