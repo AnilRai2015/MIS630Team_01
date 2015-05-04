@@ -59,14 +59,22 @@ if(isset($_SESSION["currentgarage"]))
 {
 $garageID=(int)$_SESSION["currentgarage"];
 
-$sql = "SELECT * FROM MechanicService where Status='Waiting' and GarageID=$garageID";
+$sql = "SELECT * FROM MechanicService where (Status='Waiting' or Status='Processing') and GarageID=$garageID";
 $result = mysqli_query($conn, $sql);
-$row = mysqli_fetch_row($result);
 
    if (mysqli_num_rows($result) > 0) 
    {
-       echo "YOU HAVE REQUEST!";
-       echo "GO TO YOUR ORDERS TO REPLY!";
+       while($row = mysqli_fetch_assoc($result)) 
+      {
+         if($row["Status"]=='Waiting')
+          {echo "YOU HAVE REQUEST!";
+           echo "GO TO YOUR ORDERS TO REPLY!"; 
+          }        
+          else if($row["Status"]=='Processing')
+          {echo "YOU HAVE PROCESSING ORDER!";
+          }
+          
+      }
     }
 } 
 mysqli_close($conn);

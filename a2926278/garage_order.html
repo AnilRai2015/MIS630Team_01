@@ -59,7 +59,7 @@ if(isset($_SESSION["currentgarage"]))
 {
 $garageID=(int)$_SESSION["currentgarage"];
 
-$sql = "SELECT ServiceNo,UserID,ProblemDescription,Price FROM MechanicService where Status='Waiting' and GarageID=$garageID";
+$sql = "SELECT ServiceNo,UserID,ProblemDescription,Price,Status FROM MechanicService where (Status='Waiting' or Status='Processing') and GarageID=$garageID";
 $result = mysqli_query($conn, $sql);
 
    if (mysqli_num_rows($result) > 0) 
@@ -68,10 +68,19 @@ $result = mysqli_query($conn, $sql);
     echo "<table border=0>";
     echo "<tr> <th> ServiceNo </th> <th> UserID </th><th> Problem </th><th>Price</th></tr>";
     while($row = mysqli_fetch_assoc($result)) 
-    {        
+    {    
+       if($row["Status"]=='Waiting')
+       {
         echo "<tr>";
-        echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["UserID"]. "</td><td>" . $row["ProblemDescription"]."</td><td><form action='garage_pricing.php'><input type='float' name='price'><input type='submit' value='Submit'></form></td>";
+        echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["UserID"]. "</td><td>" . $row["ProblemDescription"]."</td><td>".$row["Price"]."</td><td>".$row["Status"]."</td><td><form action='garage_pricing.php'><input type='float' name='price'><input type='submit' value='Submit'></form></td>";
         echo "</tr>";
+       }
+       else if($row["Status"]=='Processing')
+       {
+        echo "<tr>";
+        echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["UserID"]. "</td><td>" . $row["ProblemDescription"]."</td><td>".$row["Price"]."</td><td>".$row["Status"]."</td>";
+        echo "</tr>";
+       }
      }
    echo "</table>";
    echo "</div>";
