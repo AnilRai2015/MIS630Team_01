@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <html ><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -27,17 +24,11 @@ session_start();
 
         <div id="leftmenu_top"></div>
  
-             <h2>
-             <?php
-             session_start();
-             echo "Welcome:".$_SESSION["currentuser"];
-             ?>
-             </h2>
 	<div id="leftmenu_main">                         
                 <ul>
                     <li><a href="profile.html">Profile</a></li>
                     <li><a href="user_order.html">Orders</a></li>
-                    <li><a href="logout.php">logout</a></li>
+                    <li><a href="#">logout</a></li>
                 </ul>
         </div>
                 
@@ -65,20 +56,22 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-if(isset($_SESSION["currentuser"]))
-{
-$userID=(int)$_SESSION["currentuser"];
+//$userID=(int)$_SESSION["currentuser"];
 
-$sql = "SELECT * FROM MechanicService where Status='Granted' and UserID=$userID";
+$sql = "SELECT OfferID,Description,Discout FROM Offers ";
 $result = mysqli_query($conn, $sql);
-$row = mysqli_fetch_row($result);
-
-   if (mysqli_num_rows($result) > 0) 
-   {
-       echo "YOUR REQUEST HAS BEEN GRANTED!";
-       echo "GO TO YOUR ORDERS!";
-    }
-} 
+//$row = mysqli_fetch_row($result);
+    echo '<div id="content_main">';
+    echo "<table border=0>";
+    echo "<tr> <th> OfferID </th> <th> Description </th><th> Discount </th><th> </th><th></th></tr>";
+    while($row = mysqli_fetch_assoc($result)) 
+    {    
+        echo "<tr>";
+        echo "<td>". $row["OfferID"]. "</td><td>" . $row["Description"]. "</td><td>" . $row["Discout"]."</td>";
+        echo "</tr>";
+     }
+   echo "</table>";
+   echo "</div>";
 mysqli_close($conn);
 ?>  
       </div>
