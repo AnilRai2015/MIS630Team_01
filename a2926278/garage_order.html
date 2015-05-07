@@ -16,9 +16,8 @@ session_start();
         <div id="menu">
         	<ul>
             	<li class="menuitem"><a href="garage_home.html">Home</a></li>
-                <li class="menuitem"><a href="/profile">Profile</a></li>
                 <li class="menuitem"><a href="garage_order.html">Orders</a></li>
-                <li class="menuitem"><a href="#">Services</a></li>
+                <li class="menuitem"><a href="logout.php">Logout</a></li>
             </ul>
         </div>
         <div id="leftmenu">
@@ -28,7 +27,7 @@ session_start();
  
              <h2>
              <?php
-             echo "Welcome:".$_SESSION["currentgarage"];
+             echo "Welcome!Garage:".$_SESSION["currentgarage"];
              ?>
              </h2>
  	<div id="leftmenu_main">                       

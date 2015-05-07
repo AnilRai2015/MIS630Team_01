@@ -34,6 +34,7 @@ $row = mysqli_fetch_row($result);
        echo $row[1];
        if ($row[1] == $password)
        {header("Location: user_home.html");}
+      else{echo "invalid password";}
     }
    else 
    {
