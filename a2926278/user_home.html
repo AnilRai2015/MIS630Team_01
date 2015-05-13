@@ -16,8 +16,10 @@ session_start();
         <div id="menu">
         	<ul>
             	<li class="menuitem"><a href="user_home.html">Home</a></li>
-                <li class="menuitem"><a href="callforhelp.html">CallForHelp</a></li>
-              <li class="menuitem"><a href="#">Contact</a></li>
+                <li class="menuitem"><a href="callForHelp.html">CallForHelp</a></li>
+                <li class="menuitem"><a href="offers.html">Offers</a></li>
+                <li class="menuitem"><a href="Services.html">Services</a></li>
+                <li class="menuitem"><a href="Contact.html">Contact</a></li>
             </ul>
         </div>
         
@@ -33,6 +35,7 @@ session_start();
              </h2>
 	<div id="leftmenu_main">                         
                 <ul>
+                    <li><a href="userProfile.html">Profile</a></li>
                     <li><a href="user_order.html">Orders</a></li>
                     <li><a href="logout.php">logout</a></li>
                 </ul>
@@ -50,10 +53,10 @@ session_start();
         <div id="content_top"></div>
         <div id="content_main">
 <?php
-$servername = "mysql13.000webhost.com";
-$username = "a2926278_mis630";
-$password = "mis630";
-$dbname = "a2926278_mis630";
+$servername = "mysql2.000webhost.com";
+$username = "a2185196_11";
+$password = "team11";
+$dbname = "a2185196_11";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -66,7 +69,7 @@ if(isset($_SESSION["currentuser"]))
 {
 $userID=(int)$_SESSION["currentuser"];
 
-$sql = "SELECT * FROM MechanicService where Status='Granted' and UserID=$userID";
+$sql = "SELECT * FROM mechanicservice where Status='Granted' and UserID=$userID";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_row($result);
 
@@ -82,4 +85,4 @@ mysqli_close($conn);
    </div>
 
 
-</body></html>
+</body></html>	
