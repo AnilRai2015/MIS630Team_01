@@ -6,40 +6,48 @@ session_start();
 <body>
 
 <?php
-$servername = "mysql13.000webhost.com";
-$username = "a2926278_mis630";
-$password = "mis630";
-$dbname = "a2926278_mis630";
-
+$servername = "mysql2.000webhost.com";
+$username = "a2185196_11";
+$passwordDB = "team11";
+$dbname = "a2185196_11";
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $passwordDB , $dbname);
 // Check connection
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 $id = $_GET["login"];
-$password = $_GET["password"];
+$passwordGarage = $_GET["password"];
 
-if($id)
-{
-
-$_SESSION["currentgarage"]=$id;
-
-$sql = "SELECT GarageID,Password FROM Garages where GarageID=$id";
-$result = mysqli_query($conn, $sql);
-$row = mysqli_fetch_row($result);
-
-   if (mysqli_num_rows($result) > 0) 
-   {
-       echo $row[1];
-       if ($row[1] == $password)
-       {header("Location: garage_home.html");}
-    }
-   else 
-   {
-    echo "Doesn't exist!";
-   }
-} 
+ if ($id){
+	$_SESSION["currentgarage"] = $id;
+	$sql = "SELECT GarageID,Password FROM garages where GarageID=$id";
+	$result = mysqli_query($conn, $sql);
+	   if ($result){
+		$row = mysqli_fetch_row($result);
+		if (mysqli_num_rows($result) > 0)
+		{
+			//echo $row[1];
+                        //echo $passwordUser ;
+			if ($passwordGarage == $row[1])
+			{
+				header("Location: garage_home.html");
+			}else{
+                               echo "<h2>Password does Not MATCH!</h2>";
+		               echo  "<ul><li class='menuitem'><a href='garage_login.html'>Go back</a></li></ul>";
+                              }
+		}else{
+                        echo "<h2>Doesn't exist!!</h2>";
+                        echo  "<ul><li class='menuitem'><a href='garage_login.html'>Go back</a></li></ul>";
+		}
+	    }else{
+		echo "<h2>User Not Found!</h2>";
+		echo  "<ul><li class='menuitem'><a href='garage_login.html'>Go back</a></li></ul>";
+	}
+ }else{
+        echo "<h2>User_ID can't be blank!</h2>";
+	echo  "<ul><li class='menuitem'><a href='garage_login.html'>Go back</a></li></ul>";
+      }
 
 
 mysqli_close($conn);
