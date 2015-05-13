@@ -6,18 +6,16 @@ session_start();
 <body>
 
 <?php
-$servername = "mysql13.000webhost.com";
-$username = "a2926278_mis630";
-$password = "mis630";
-$dbname = "a2926278_mis630";
-
+$servername = "mysql2.000webhost.com";
+$username = "a2185196_11";
+$password = "team11";
+$dbname = "a2185196_11";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-
 if(isset($_SESSION["currentuser"]))
 {
    
@@ -26,7 +24,7 @@ if(isset($_SESSION["currentuser"]))
    //$serviceNo=(int)$_SESSION["serviceno"];
    if($decision=='accept')
    {
-      $sql = "UPDATE MechanicService set Status='Processing' where UserID=$userID and Status='Granted'";
+      $sql = "UPDATE mechanicservice set Status='Processing' where UserID=$userID and Status='Granted'";
  
       $result = mysqli_query($conn, $sql);
       if ($result)
