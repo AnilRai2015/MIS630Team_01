@@ -16,8 +16,8 @@ session_start();
         <div id="menu">
         	<ul>
             	<li class="menuitem"><a href="user_home.html">Home</a></li>
-                <li class="menuitem"><a href="callforhelp.html">CallForHelp</a></li>
-              <li class="menuitem"><a href="#">Contact</a></li>
+                <li class="menuitem"><a href="callForHelp.html">CallForHelp</a></li>
+              <li class="menuitem"><a href="Contact.html">Contact</a></li>
             </ul>
         </div>
         
@@ -34,7 +34,7 @@ session_start();
 	<div id="leftmenu_main">                         
                 <ul>
                     <li><a href="user_order.html">Orders</a></li>
-                    <li><a href="#">logout</a></li>
+                    <li><a href="logout.php">logout</a></li>
                 </ul>
         </div>
                 
@@ -50,10 +50,10 @@ session_start();
         <div id="content_top"></div>
         <div id="content_main">
 <?php
-$servername = "mysql13.000webhost.com";
-$username = "a2926278_mis630";
-$password = "mis630";
-$dbname = "a2926278_mis630";
+$servername = "mysql2.000webhost.com";
+$username = "a2185196_11";
+$password = "team11";
+$dbname = "a2185196_11";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -66,38 +66,55 @@ if(isset($_SESSION["currentuser"]))
 {
 $userID=(int)$_SESSION["currentuser"];
 
-$sql = "SELECT ServiceNo,UserID,ProblemDescription,Price,Status FROM MechanicService where (Status='Granted' or Status='Processing') and UserID=$userID";
+$sql = "SELECT ServiceNo,UserID,ProblemDescription,Price,Status FROM mechanicservice where (Status='Granted' or Status='Processing' or Status='Waiting' or Status='Completed') and UserID=$userID";
 $result = mysqli_query($conn, $sql);
 
    if (mysqli_num_rows($result) > 0) 
    {
     echo '<div id="content_main">';
     echo "<table border=0>";
-    echo "<tr> <th> ServiceNo </th> <th> GarageID </th><th> Problem </th><th>Price</th><th>    </th></tr>";
+    echo "<h2>PLEASE PROCESS ONE ORDER REQUEST AT A TIME<br></h2>";
+    echo "<tr> <th> ServiceNo </th> <th> GarageID </th><th> Problem </th><th>Price</th><th>Status</th><th>    </th></tr>";
     while($row = mysqli_fetch_assoc($result)) 
-    {   
-      if($row["Status"]=='Granted')
-      {     
+     {   
+       if($row["Status"]=='Granted')
+       {     
         echo "<tr>";
         echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["GarageID"]. "</td><td>" . $row["ProblemDescription"]."</td><td>". $row["Price"]."</td><td><form action='user_decide.php'><select name='decision'><option value='accept'>Accept</option><option value='reject'>Reject</option></select><br><br><input type='submit'></form></td>";
         echo "</tr>";
-      }
-      else if($row["Status"]=='Processing')
-      {
+       }
+       else if($row["Status"]=='Processing')
+       {
         echo "<tr>";
-        echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["GarageID"]. "</td><td>" . $row["ProblemDescription"]."</td><td>". $row["Price"]."</td><td><form action='user_complete.php'><select name='complete'><option value='complete'>Comfirm</option></select><br><br><input type='submit'></form></td>";
+        echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["GarageID"]. "</td><td>" . $row["ProblemDescription"]."</td><td>". $row["Price"]."</td><td><form action='user_complete.php'><input type='int' name='ServiceNo' placeholder='Enter the ServiceNo'><select name='complete'><option value='complete'>Confirm</option></select><br><br><input type='submit'></form></td>";
         echo "</tr>";
-
-      }
+       }
+       else if($row["Status"]=='Waiting')
+       {
+        echo "<tr>";
+        echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["GarageID"]. "</td><td>" . $row["ProblemDescription"]."</td><td>". $row["Price"]."</td> <td>".Request_not_yet_Approved_By_Garage."</td>";
+        echo "<br></tr>";
+       }
+       else if($row["Status"]=='Completed')
+           {
+            echo "<tr>";
+            echo "<td>". $row["ServiceNo"]. "</td> <td>" . $row["UserID"]. "</td> <td>" . $row["ProblemDescription"]."</td><td>".$row["Price"]."</td> <td>".PaymentDoneAndClosed."</td>";
+            echo "</tr>";
+           }
      }
-   echo "</table>";
-   echo "</div>";
-    }
-} 
+      echo "</table>";
+      echo "</div>";
+   }else{
+    echo "<h3>NO REQUEST YET</h3>";
+        }
+} else{
+    echo "Error: Not getting Current User Information, login Again!";
+    echo  "<ul><li class='menuitem'><a href='logout.php'>LogOUT Now</a></li></ul>";
+      } 
 mysqli_close($conn);
 ?>   
       </div>
    </div>
 
 
-</body></html>
+</body></html>	
