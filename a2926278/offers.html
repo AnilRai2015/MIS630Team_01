@@ -1,81 +1,22 @@
-<html ><head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>Mis630 team1</title>
-</head>
-
+<!DOCTYPE html>
+<html>
 <body>
-<div id="container">
-		<div id="header">
-        	<h1>Car<span class="off">Service</span></h1>
-        </div>   
-        
-        <div id="menu">
-        	<ul>
-            	<li class="menuitem"><a href="user_home.html">Home</a></li>
-                <li class="menuitem"><a href="callforhelp.html">CallForHelp</a></li>
-                <li class="menuitem"><a href="offers.html">Offers</a></li>
-                <li class="menuitem"><a href="#">Services</a></li>
-              <li class="menuitem"><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        
-        <div id="leftmenu">
 
-        <div id="leftmenu_top"></div>
- 
-	<div id="leftmenu_main">                         
-                <ul>
-                    <li><a href="profile.html">Profile</a></li>
-                    <li><a href="user_order.html">Orders</a></li>
-                    <li><a href="#">logout</a></li>
-                </ul>
-        </div>
-                
-                
-              <div id="leftmenu_bottom"></div>
-              </div>
-        
-        
-        
-		<div id="content">
-        
-        
-        <div id="content_top"></div>
-        <div id="content_main">
 <?php
-$servername = "mysql13.000webhost.com";
-$username = "a2926278_mis630";
-$password = "mis630";
-$dbname = "a2926278_mis630";
+echo "<h2>WELCOME TO CAR SERVICE!</h2>";
+echo "<h3>DEVELOPERS ARE:<br></h3>";
+echo "ANIL KUMAR RAI!<br>";
+echo "Vaibahv!<br>";
+echo "Lie!<br>";
+echo "Rabi!<br>";
+echo "<h3>INFORMATION: ONLINE OFFER ", "tab will be ", "effective ", "shortly to all OUR ", "PROMINENT Customers.<br></h3>";
+echo "<h2>WE are sorry for this ", "Inconvenience ", "You can approach to garage for a time being. ", "We value to all OUR ", "VALUABLE Customers.<br></h2>";
+echo "<br><h1>OFFICE:<br></h1>";
+echo "<h3>STEVENS INSTITUTE OF TECHNOLOGY<br></h3>";
+echo "<h4>PHONE:123456789<br></h4>";
+echo "<a href=\"javascript:history.go(-1)\">GO BACK</a>"; 
+?>
+ 
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-//$userID=(int)$_SESSION["currentuser"];
-
-$sql = "SELECT OfferID,Description,Discout FROM Offers ";
-$result = mysqli_query($conn, $sql);
-//$row = mysqli_fetch_row($result);
-    echo '<div id="content_main">';
-    echo "<table border=0>";
-    echo "<tr> <th> OfferID </th> <th> Description </th><th> Discount </th><th> </th><th></th></tr>";
-    while($row = mysqli_fetch_assoc($result)) 
-    {    
-        echo "<tr>";
-        echo "<td>". $row["OfferID"]. "</td><td>" . $row["Description"]. "</td><td>" . $row["Discout"]."</td>";
-        echo "</tr>";
-     }
-   echo "</table>";
-   echo "</div>";
-mysqli_close($conn);
-?>  
-      </div>
-   </div>
-
-
-</body></html>
+</body>
+</html>
