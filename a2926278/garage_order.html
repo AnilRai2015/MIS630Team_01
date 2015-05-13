@@ -42,11 +42,10 @@ session_start();
         <div id="content_top"></div>
         <div id="content_main">
 <?php
-$servername = "mysql13.000webhost.com";
-$username = "a2926278_mis630";
-$password = "mis630";
-$dbname = "a2926278_mis630";
-
+$servername = "mysql2.000webhost.com";
+$username = "a2185196_11";
+$password = "team11";
+$dbname = "a2185196_11";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
@@ -58,33 +57,51 @@ if(isset($_SESSION["currentgarage"]))
 {
 $garageID=(int)$_SESSION["currentgarage"];
 
-$sql = "SELECT ServiceNo,UserID,ProblemDescription,Price,Status FROM MechanicService where (Status='Waiting' or Status='Processing') and GarageID=$garageID";
+$sql = "SELECT ServiceNo,UserID,ProblemDescription,Price,Status FROM mechanicservice where (Status='Waiting' or Status='Processing' or Status='Granted' or Status='Completed') and GarageID=$garageID";
 $result = mysqli_query($conn, $sql);
 
    if (mysqli_num_rows($result) > 0) 
    {
     echo '<div id="content_main">';
     echo "<table border=0>";
-    echo "<tr> <th> ServiceNo </th> <th> UserID </th><th> Problem </th><th>Price</th></tr>";
-    while($row = mysqli_fetch_assoc($result)) 
-    {    
-       if($row["Status"]=='Waiting')
-       {
-        echo "<tr>";
-        echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["UserID"]. "</td><td>" . $row["ProblemDescription"]."</td><td>".$row["Price"]."</td><td>".$row["Status"]."</td><td><form action='garage_pricing.php'><input type='float' name='price'><input type='submit' value='Submit'></form></td>";
-        echo "</tr>";
-       }
-       else if($row["Status"]=='Processing')
-       {
-        echo "<tr>";
-        echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["UserID"]. "</td><td>" . $row["ProblemDescription"]."</td><td>".$row["Price"]."</td><td>".$row["Status"]."</td>";
-        echo "</tr>";
-       }
-     }
-   echo "</table>";
-   echo "</div>";
-    }
-} 
+    echo "<h2>PLEASE PROCESS ONE WAITING REQUEST AT A TIME<br></h2>";
+    echo "<tr> <th> ServiceNo </th> <th> UserID </th><th> Problem </th><th>Price</th><th>Status</th></tr>";
+       while($row = mysqli_fetch_assoc($result)) 
+       {    
+           if($row["Status"]=='Waiting')
+           {
+            echo "<tr>";
+            echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["UserID"]. "</td><td>" . $row["ProblemDescription"]."</td><td>".$row["Price"]."</td><td>".$row["Status"]."</td><td><form action='garage_pricing.php'><input type='float' name='price' placeholder='Enter a price'><input type='int' name='serviceNum' placeholder='Corosponding serviceNum'><input type='submit' value='Submit'></form></td>";
+            echo "</tr>";
+           }
+           else if($row["Status"]=='Processing')
+           {
+            echo "<tr>";
+            echo "<td>". $row["ServiceNo"]. "</td><td>" . $row["UserID"]. "</td><td>" . $row["ProblemDescription"]."</td><td>".$row["Price"]."</td><td>".$row["Status"]."</td>";
+            echo "</tr>";
+           }
+           else if($row["Status"]=='Granted')
+           {
+            echo "<tr>";
+            echo "<td>". $row["ServiceNo"]. "</td> <td>" . $row["UserID"]. "</td> <td>" . $row["ProblemDescription"]."</td><td>".$row["Price"]."</td> <td>".RequestApprovedByGarage."</td>";
+            echo "</tr>";
+           }
+           else if($row["Status"]=='Completed')
+           {
+            echo "<tr>";
+            echo "<td>". $row["ServiceNo"]. "</td> <td>" . $row["UserID"]. "</td> <td>" . $row["ProblemDescription"]."</td><td>".$row["Price"]."</td> <td>".PaymentDoneAndClosed."</td>";
+            echo "</tr>";
+           }
+        }
+		echo "</table>";
+		echo "</div>";
+    }else{
+    echo "<h3>NO REQUEST YET</h3>";
+   } 
+}else{
+    echo "Error: Not getting Current GRAGE User Information, login Again!";
+    echo  "<ul><li class='menuitem'><a href='logout.php'>LogOUT Now</a></li></ul>";
+   } 
 mysqli_close($conn);
 ?>  
       </div>
