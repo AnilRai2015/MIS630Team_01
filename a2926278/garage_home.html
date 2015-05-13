@@ -27,7 +27,7 @@ session_start();
  
              <h2>
              <?php
-             echo "Welcome!Garage:".$_SESSION["currentgarage"];
+             echo "Welcome!Garage: " .$_SESSION["currentgarage"];
              ?>
              </h2>
  	<div id="leftmenu_main">                        
@@ -42,10 +42,10 @@ session_start();
         <div id="content_top"></div>
         <div id="content_main">
 <?php
-$servername = "mysql13.000webhost.com";
-$username = "a2926278_mis630";
-$password = "mis630";
-$dbname = "a2926278_mis630";
+$servername = "mysql2.000webhost.com";
+$username = "a2185196_11";
+$password = "team11";
+$dbname = "a2185196_11";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -56,25 +56,39 @@ if (!$conn) {
 
 if(isset($_SESSION["currentgarage"]))
 {
-$garageID=(int)$_SESSION["currentgarage"];
+    $garageID=(int)$_SESSION["currentgarage"];
+    $sql = "SELECT * FROM mechanicservice where Status='Granted' AND GarageID=$garageID";
+    $result = mysqli_query($conn, $sql);
 
-$sql = "SELECT * FROM MechanicService where (Status='Waiting' or Status='Processing') and GarageID=$garageID";
-$result = mysqli_query($conn, $sql);
-
-   if (mysqli_num_rows($result) > 0) 
-   {
+    if (mysqli_num_rows($result) > 0) 
+    {
        while($row = mysqli_fetch_assoc($result)) 
       {
-         if($row["Status"]=='Waiting')
-          {echo "YOU HAVE REQUEST!";
-           echo "GO TO YOUR ORDERS TO REPLY!"; 
-          }        
-          else if($row["Status"]=='Processing')
-          {echo "YOU HAVE PROCESSING ORDER!";
+      
+          if($row["Status"]=='Granted')
+          {
+           echo "<h3>YOU HAVE PROCESSING ORDER!<br></h3>";
+           break;
           }
           
       }
-    }
+     }else{echo "<h3>Do not have any granted request</h3>";}
+
+$sql2 = "SELECT * FROM mechanicservice WHERE Status='Waiting' AND GarageID=$garageID";
+    $result2 = mysqli_query($conn, $sql2);
+
+    if (mysqli_num_rows($result2) > 0) 
+    {
+       while($row = mysqli_fetch_assoc($result2)) 
+      {
+         if($row["Status"]=='Waiting')
+          {
+           echo "<h3>YOU HAVE waiting REQUEST!, GO TO YOUR ORDERS TO REPLY!</h3>";
+           break;
+          }                  
+      }
+     }else{echo  "<h3>Do not have any waiting request</h3>";}
+
 } 
 mysqli_close($conn);
 ?>  
